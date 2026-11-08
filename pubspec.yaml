@@ -1,14 +1,16 @@
 name: lumo
 description: Lumo — a modern messenger for Android.
 publish_to: 'none'
-version: 0.1.0+1
+version: 0.2.0+2
 
 environment:
-  sdk: '>=3.4.0 <4.0.0'
+  sdk: '>=3.6.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^4.15.2
+  firebase_auth: ^6.7.1
 
 dev_dependencies:
   flutter_test:
